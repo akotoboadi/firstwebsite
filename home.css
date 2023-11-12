@@ -85,14 +85,18 @@ img{
     cursor:pointer;
 
 }
+.program{
+    vertical-align: middle;
+}
 .box2_1{
     height:50px;
     width: 300px;
     vertical-align: top;
     color:white;
     border-radius: 150px;
-    padding-top:5px;
-    padding-left: 5px;
+    padding-top:8px;
+    vertical-align: middle;
+    padding-left: 10px;
     margin-left: 5px;
     margin-top: 0px;
     line-height: 0px;
@@ -170,6 +174,188 @@ img{
 .pb-40 {
     padding-bottom: 40px;
 }
+.searchcourse{
+    display: flex !important;
+    justify-content: center !important;
+    width:50%;
+
+
+}
+.search-course-area-relative {
+    background: linear-gradient(0deg, rgba(4, 9, 30, 0.75), rgba(4, 9, 30, 0.75)), url(under_grad_main.jpg) center;
+    background-size: cover;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+    
+}
+
+h1 {
+    font-size: 36px;
+}
+/* below is a test */
+h1, h2, h3,  h5, h6 {
+    font-family: "Poppins", sans-serif;
+    color: #2C2A58;
+    line-height: 1.2em !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 600;
+}
+h4{
+    font-family: "Poppins", sans-serif;
+    color:  #fff;
+    line-height: 1.2em !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 600;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0px;
+}
+.search-course-area .search-course-left p {
+    font-size: 12px;
+    color: white !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.single-detials{
+    position: relative;
+    width:50%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;    
+}
+.lnr-graduation-hat:before {
+    content: "\e821";
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.search-course-area .details-content .single-detials span {
+    color: #BD9C6C;
+    font-size: 30px;
+}
+.lnr {
+    font-family: 'Linearicons-Free';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.lnr-graduation-hat{
+    width:50%;
+}
+.expercert{
+    font-size: 15px;
+    color: white !important;
+    text-align: center;
+}
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.lnr-license:before {
+    content: "\e822";
+}
+.single-detials span {
+    color: #BD9C6C;
+    font-size: 30px;
+}
+.search-course-area .genric-btn {
+    margin-top: 10px;
+    align-self: center;
+}
+.primary-btn {
+    background: #BD9C6C;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    position: relative;
+}
+.genric-btn {
+    display: inline-block;
+    outline: none;
+    line-height: 40px;
+    padding: 0 30px;
+    font-size: .8em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+a {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+a {
+    color: #2C2A58;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
 
 /* .col-lg-8 {
     flex: 0 0 66.66667%;
